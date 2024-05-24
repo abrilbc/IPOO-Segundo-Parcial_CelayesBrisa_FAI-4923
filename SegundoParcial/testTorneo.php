@@ -42,5 +42,12 @@ $segundoIngreso = $torneo->ingresarPartido($objE11, $objE11, "2024-05-23", "basq
 echo $segundoIngreso;
 $tercerIngreso = $torneo->ingresarPartido($objE9, $objE10, "2024-05-25", "basquetbol");
 echo $tercerIngreso;
+
+$ganadoresBasquet = $torneo->darColGanadores("basquetbol");
+echo $ganadoresBasquet;
+$ganadoresFutbol = $torneo->darColGanadores("futbol");
+echo $ganadoresFutbol;
+
+$torneo->calcularPremioPartido()
 // echo $torneo; 
 ?>
