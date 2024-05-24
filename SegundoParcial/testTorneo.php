@@ -48,6 +48,9 @@ echo $ganadoresBasquet;
 $ganadoresFutbol = $torneo->darColGanadores("futbol");
 echo $ganadoresFutbol;
 
-$torneo->calcularPremioPartido()
-// echo $torneo; 
+$torneo->calcularPremioPartido($primerIngreso);
+$torneo->calcularPremioPartido($segundoIngreso);
+$torneo->calcularPremioPartido($tercerIngreso);
+
+echo $torneo; 
 ?>
