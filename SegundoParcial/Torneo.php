@@ -80,6 +80,7 @@ class Torneo{
         }
         return $colGanadores;
     }
+    
     public function calcularPremioPartido($objPartido) {
         $equipoGanador = $objPartido->darEquipoGanador();
         $arrayPremios = [];
